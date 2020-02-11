@@ -194,8 +194,8 @@ work original in ucs-ros-pkg.
 		<child link="center_hubcap"/>
 	</joint>
 
-	<xacro:p3dx_wheel suffix="left" parent="base_link" reflect="1"/>
-	<xacro:p3dx_wheel suffix="right" parent="base_link" reflect="-1"/>
+	<xacro:p3dx_wheel suffix="left" parent="base_link" reflect="-1"/>
+	<xacro:p3dx_wheel suffix="right" parent="base_link" reflect="1"/>
 
   <!-- front_sonar -->
 	<link name="front_sonar">
